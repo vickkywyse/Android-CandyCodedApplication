@@ -156,7 +156,7 @@ public class _2_StartTheGoogleMapsActivity {
     }
 
     @Test
-    public void test_xml() throws Exception {
+    public void test_xml() {
         ArrayList<XMLTestHelpers.ViewContainer> viewContainers = readLayoutXML(LAYOUT_XML_FILE);
         XMLTestHelpers.ViewContainer addressView =
                 new XMLTestHelpers.ViewContainer("@+id/text_view_address", "createMapIntent", "true");
